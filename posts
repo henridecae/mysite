@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Публикации — Граница сознания</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #f1f1f1;
+      font-family: 'Cormorant Garamond', serif;
+      color: #2c2c2c;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 300%;
+      height: 300%;
+      background: 
+        radial-gradient(circle at 30% 30%, rgba(150, 120, 255, 0.2), transparent 50%),
+        radial-gradient(circle at 70% 70%, rgba(0, 180, 150, 0.2), transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(200, 200, 200, 0.05), transparent 60%);
+      animation: move 30s linear infinite;
+      z-index: -1;
+    }
+    @keyframes move {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(5%, 5%) scale(1.05); }
+      100% { transform: translate(0, 0); }
+    }
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.7);
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      z-index: 10;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    header a {
+      color: #333;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+    header a:hover {
+      color: #00796b;
+    }
+    .content {
+      padding: 120px 30px 60px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .post {
+      margin-bottom: 50px;
+      border-left: 3px solid #00796b;
+      padding-left: 20px;
+    }
+    .post h2 {
+      margin-top: 0;
+    }
+    .post p {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Главная</a>
+    <a href="about.html">О проекте</a>
+    <a href="thoughts.html">Мысли</a>
+    <a href="video.html">Видео</a>
+    <a href="posts.html">Публикации</a>
+  </header>
+  <div class="content">
+    <div class="post">
+      <h2>Название публикации</h2>
+      <p>Краткое вступление к тексту, размышление или фраза. Далее можно будет вставить ссылку на полную статью или видео.</p>
+    </div>
+    <div class="post">
+      <h2>Ещё одна мысль</h2>
+      <p>В этом блоке будет следующая заметка или история. Всё оформлено в едином стиле с остальными страницами.</p>
+    </div>
+  </div>
+</body>
+</html>
