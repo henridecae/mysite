@@ -1,11 +1,4 @@
-<style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: #f1f1f1;
-      font-family: 'Cormorant Garamond', serif;
-      color: #2c2c2c;
-    }
+
     body::before {
       content: "";
       position: absolute;
