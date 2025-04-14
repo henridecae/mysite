@@ -19,11 +19,6 @@
   text-align: center;
 }
   
-    @keyframes move {
-      0% { transform: translate(0, 0); }
-      50% { transform: translate(5%, 5%) scale(1.05); }
-      100% { transform: translate(0, 0); }
-    }
     header {
       position: fixed;
       top: 0;
