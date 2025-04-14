@@ -78,8 +78,8 @@
       border-radius: 8px;
     }
     .video-block p {
-      font-size: 1.2em;
+      font-size: 3 em;
       margin-top: 10px;
-      opacity: 0.85;
+      opacity: 1;
     }
   </style>
