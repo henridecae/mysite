@@ -1,1 +1,67 @@
-
+<style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #f1f1f1;
+      font-family: 'Cormorant Garamond', serif;
+      color: #2c2c2c;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 300%;
+      height: 300%;
+      background: 
+        radial-gradient(circle at 30% 30%, rgba(150, 120, 255, 0.2), transparent 50%),
+        radial-gradient(circle at 70% 70%, rgba(0, 180, 150, 0.2), transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(200, 200, 200, 0.05), transparent 60%);
+      animation: move 30s linear infinite;
+      z-index: -1;
+    }
+    @keyframes move {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(5%, 5%) scale(1.05); }
+      100% { transform: translate(0, 0); }
+    }
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.7);
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      z-index: 10;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    header a {
+      color: #333;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+    header a:hover {
+      color: #00796b;
+    }
+    .content {
+      padding: 120px 30px 60px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .thought {
+      margin-bottom: 40px;
+      padding-left: 20px;
+      border-left: 3px solid #999;
+    }
+    .thought h2 {
+      font-size: 1.6em;
+      margin: 0 0 10px;
+    }
+    .thought p {
+      font-size: 1.2em;
+      opacity: 0.85;
+    }
+  </style>
