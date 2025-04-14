@@ -25,6 +25,21 @@ body {
   text-align: center;
 }
 
+body.index {
+}
+
+body.about {
+}
+
+body.thoughts {
+}
+
+body.video {
+}
+
+body.posts {
+}
+
 body::before {
   content: "";
   position: absolute;
