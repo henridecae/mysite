@@ -6,7 +6,10 @@
 
 body {
   height: 100vh;
-  background: #1dec13;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: 'Cormorant Garamond', serif;
   color: #1e1e1e;
   display: flex;
