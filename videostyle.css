@@ -92,25 +92,3 @@ header a:hover {
   margin-top: 100px;
 }
 
-.overlay h1 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 3rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  color: #ad8cff;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
-  color: #e0e0e0;
-}
-
-.overlay p {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.7;
-  color: #cfcfcf;
-  max-width: 700px;
-  margin-bottom: 1.5rem;
-}
