@@ -48,7 +48,7 @@ body::before {
   width: 200%;
   height: 200%;
   background: radial-gradient(circle at 30% 30%, rgba(220, 211, 196, 0.1), transparent 60%),
-    url('.png') center no-repeat;
+    url('paolo.png') center no-repeat;
   background-size: cover;
   z-index: -1;
 }
