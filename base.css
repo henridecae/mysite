@@ -59,13 +59,13 @@ body::before {
 }
 
 a, .btn {
-  color: #d2f5ee;
+  color: #333;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover, .btn:hover {
-  color: #d2f5ee;
+  color: #0f0f0f;
   background-color: #d2f5ee;
   padding: 0.4rem 1rem;
   border-radius: 20px;
