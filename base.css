@@ -48,7 +48,7 @@ body::before {
   left: -50%;
   width: 200%;
   height: 200%;
-  background-size: cover;
+  background: radial-gradient(circle at 30% 30%, rgba(150, 120, 255, 0.15), transparent 50%);
   backdrop-filter: blur(20px);
   z-index: -1;
 }
