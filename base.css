@@ -7,7 +7,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(rgba(250, 244, 233, 0.6), rgba(250, 244, 233, 0.6)), url('image.webp');
+  background: linear-gradient(rgba(250, 244, 233, 0.7), rgba(250, 244, 233, 0.6)), url('image.webp');
+  backdrop-filter: blur(20px);
   min-height: 100vh;
   background-attachment: fixed;
   background-size: cover;
