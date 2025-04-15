@@ -60,7 +60,11 @@ body::before {
 
 a, .btn {
   color: #333;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: black;
+  text-decoration-thickness: 1px;
   transition: 0.3s;
 }
 
@@ -87,7 +91,7 @@ header {
 
 header a {
   color: #101209;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 1.2em;
   transition: color 0.3s;
 }
