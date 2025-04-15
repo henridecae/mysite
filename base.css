@@ -12,6 +12,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
+  overflow-y: auto;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,8 +61,6 @@ body::before {
 }
 
 a, .btn {
-  color: #333;
-  text-decoration: underline;
   text-decoration-line: underline;
   text-decoration-style: dotted;
   text-decoration-color: black;
@@ -71,7 +70,7 @@ a, .btn {
 
 a:hover, .btn:hover {
   color: #0f0f0f;
-  background-color: #d2f5ee;
+  background-color: rgba(210, 245, 238, 0.8);
   padding: 0.4rem 1rem;
   border-radius: 20px;
 }
@@ -98,7 +97,8 @@ header a {
 }
 
 header a:hover {
-  color: #d2f5ee;
+ background-color: rgba(210, 245, 238, 0.2);
+  color: #0f0f0f;
 }
 
 @keyframes fadeInUp {
