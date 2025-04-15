@@ -8,7 +8,6 @@ body {
   margin: 0;
   padding: 0;
   background: url('image.webp');
-  background-color: #f8f8f8;
   min-height: 100vh;
   background-attachment: fixed;
   background-size: cover;
@@ -60,13 +59,13 @@ body::before {
 }
 
 a, .btn {
-  color: #ad8cff;
+  color: #d2f5ee;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover, .btn:hover {
-  color: #0f0f1c;
+  color: #d2f5ee;
   background-color: #ad8cff;
   padding: 0.4rem 1rem;
   border-radius: 20px;
@@ -95,17 +94,6 @@ header a {
 
 header a:hover {
   color: #00796b;
-}
-.overlay {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(5px);
-  padding: 60px 40px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(173, 140, 255, 0.2), 0 0 50px rgba(173, 140, 255, 0.05);
-  margin-top: 100px;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1.5s ease-out forwards;
 }
 
 @keyframes fadeInUp {
@@ -143,35 +131,4 @@ header a:hover {
   margin: 20px auto;
   max-width: 800px;
   text-align: center;
-}
-.fullscreen-hero {
-  background: url('images/image.webp') no-repeat center center;
-  background-size: cover;
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
-
-.hero-text {
-  background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
-  border-radius: 12px;
-  backdrop-filter: blur(4px);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-}
-
-.hero-text h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  font-family: 'Cormorant Garamond', serif;
-}
-
-.hero-text p {
-  font-size: 1.2rem;
-  font-family: 'Inter', sans-serif;
 }
