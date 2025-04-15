@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: radial-gradient(ellipse at center, #1a1a2e 0%, #0f0f1c 100%);
+  background-color: #f8f8f8;
   min-height: 100vh;
   background-attachment: fixed;
   background-size: cover;
@@ -15,8 +15,9 @@ body {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Cormorant Garamond', serif;
-  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333333;
   display: flex;
   justify-content: center;
   align-items: center;
