@@ -47,7 +47,6 @@ body::before {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle at 30% 30%, rgba(220, 211, 196, 0.1), transparent 60%),
   background-size: cover;
   z-index: -1;
 }
@@ -66,7 +65,7 @@ a, .btn {
 
 a:hover, .btn:hover {
   color: #d2f5ee;
-  background-color: #ad8cff;
+  background-color: #d2f5ee;
   padding: 0.4rem 1rem;
   border-radius: 20px;
 }
@@ -87,13 +86,13 @@ header {
 
 header a {
   color: #101209;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 1.2em;
   transition: color 0.3s;
 }
 
 header a:hover {
-  color: #00796b;
+  color: #d2f5ee;
 }
 
 @keyframes fadeInUp {
