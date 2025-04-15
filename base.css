@@ -144,3 +144,34 @@ header a:hover {
   max-width: 800px;
   text-align: center;
 }
+.fullscreen-hero {
+  background: url('images/image.webp') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-text {
+  background: rgba(0, 0, 0, 0.4); /* полупрозрачная подложка */
+  padding: 40px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  font-family: 'Inter', sans-serif;
+}
