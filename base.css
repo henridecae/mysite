@@ -7,8 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(rgba(250, 244, 233, 0.7), rgba(250, 244, 233, 0.6)), url('image.webp');
-  backdrop-filter: blur(20px);
+  background: linear-gradient(rgba(250, 244, 233, 0.4), rgba(250, 244, 233, 0.4)), url('image.webp');
   min-height: 100vh;
   background-attachment: fixed;
   background-size: cover;
@@ -50,6 +49,7 @@ body::before {
   width: 200%;
   height: 200%;
   background-size: cover;
+  backdrop-filter: blur(20px);
   z-index: -1;
 }
 
