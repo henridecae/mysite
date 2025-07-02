@@ -5,8 +5,8 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 20px;
   background: linear-gradient(rgba(250, 244, 233, 0.4), rgba(250, 244, 233, 0.4)), url('image.webp');
   min-height: 100vh;
   background-attachment: fixed;
@@ -16,9 +16,9 @@ body {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
-  color: #333333;
+  color: #eee;
   transition: background 1s ease;
   display: flex;
   justify-content: center;
