@@ -117,64 +117,46 @@ header a:hover {
   text-align: center;
 }
 @media (max-width: 600px) {
-  body {
-    font-size: 16px;
-    margin: 5px;
-  }
-  .container, .main, .header, .footer {
-    padding: 5px;
-    width: 100% !important;
-    box-sizing: border-box;
-  }
-  img, video {
-    max-width: 100%;
-    height: auto;
-  }
-  @media (max-width: 600px) {
-  body {
-    font-size: 15px;
-    padding: 8px 0 0 0;
-    margin: 0;
-    align-items: flex-start;
-    min-height: 100vh;
-  }
-
   header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
+    min-height: 45px;
     padding: 10px 0 10px 0;
+    display: flex;
     flex-direction: column;
-    gap: 12px;
+    align-items: center;
+    gap: 8px;
     font-size: 1em;
+    z-index: 10;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    background: rgba(255,255,255,0.82);
+    backdrop-filter: blur(7px);
   }
-
-  h1 {
-    font-size: 2rem;
-    margin-top: 90px; /* учитываем фиксированный header */
+  header a {
+    font-size: 1.05em;
+    padding: 6px 0;
+    width: 100vw;
+    display: block;
+    text-align: center;
   }
-
+  body {
+    padding-top: 90px !important; /* Чтобы контент не залезал под шапку */
+    font-size: 1rem;
+    margin: 0 !important;
+    align-items: flex-start;
+  }
   h2 {
     font-size: 1.15rem;
-    margin-top: 85px;
+    margin-top: 0.5em;
   }
-
   .text-simple, p {
     font-size: 1rem;
     max-width: 97vw;
     padding: 0 5px;
   }
-
-  section {
-    padding: 30px 6px;
-    max-width: 98vw;
-  }
-
-  ul, ol {
-    font-size: 0.95rem;
-    max-width: 96vw;
-    padding-left: 1rem;
-  }
 }
+
 
