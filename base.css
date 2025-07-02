@@ -116,3 +116,18 @@ header a:hover {
   max-width: 800px;
   text-align: center;
 }
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    margin: 5px;
+  }
+  .container, .main, .header, .footer {
+    padding: 5px;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  
