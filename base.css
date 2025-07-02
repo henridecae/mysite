@@ -130,4 +130,51 @@ header a:hover {
     max-width: 100%;
     height: auto;
   }
-  
+  @media (max-width: 600px) {
+  body {
+    font-size: 15px;
+    padding: 8px 0 0 0;
+    margin: 0;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 10px 0 10px 0;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 90px; /* учитываем фиксированный header */
+  }
+
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 85px;
+  }
+
+  .text-simple, p {
+    font-size: 1rem;
+    max-width: 97vw;
+    padding: 0 5px;
+  }
+
+  section {
+    padding: 30px 6px;
+    max-width: 98vw;
+  }
+
+  ul, ol {
+    font-size: 0.95rem;
+    max-width: 96vw;
+    padding-left: 1rem;
+  }
+}
+
